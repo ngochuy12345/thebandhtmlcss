@@ -452,5 +452,100 @@ margin-top: -3px;
         opacity: 1;
         transform: translateY(0);
     }
+}@media only screen and (max-width: 63.9375em){
+    #content .content-section{
+        width: 100%;
+    }
+    .places-list{
+        margin-top: 48px;
+        width: 100%;
+    }
+}
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .text-content{
+        display: none;
+    }
+  
+    .about-text{
+        padding: 12px ;
+    }
+    .member{
+        width: 100%;
+
+    }
+    #content .member-img{
+        width: 80%;
+    }
+    
+    .place{
+        width: 100%;
+        /* margin: 12px 20px; */
+        padding-left: 20px;
+        /* padding: 8px 4px 5px 8px; */
+        padding-right: 4px;
+        margin-top: 12px;
+        
+    }
+    .tickets-list{
+        margin: 40px 12px;
+    }
+
+    .contact-info,
+    .contact-form{
+        width: 100%;
+        padding: 13px 24px;
+    }
+    .send{
+        display: block;
+        margin-left: 50%;
+        
+       
+		transform: translate(-50%);
+    }
+   
+  
+
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .about-text{
+        padding: 56px ;
+    }
+    .tickets-list{
+        margin: 40px 56px;
+    }
+    .place{
+        width: 100%;
+        
+        padding-left: 64px;
+        
+        padding-right: 48px;
+        margin-top: 56px;
+        
+    }
+    .contact-info,
+    .contact-form{
+        width: 100%;
+        padding: 24px 128px;
+    }
+    .send{
+        display: block;
+        margin-left: 50%;
+        
+       
+		transform: translate(-50%);
+    }
+    
+}
+
+
+
+/* mobile nav */
+.nav_bars-btn{
+    width: 28px;
+    height: 28px;
+    color: orange;
 }
 
